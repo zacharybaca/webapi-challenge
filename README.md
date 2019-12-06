@@ -40,18 +40,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Response: Express is a Framework that can be used to build backend APIs. Also, Express is one of the more simple frameworks to work with when you need to get an API set up quickly.
+
 - [ ] Describe Middleware?
+
+Response: Middleware is basically a function that is executed before a request is implemented in a server call. An example would be a function preventing an unauthorized user from logging into a database.
 
 - [ ] Describe a Resource?
 
+Response: A resource is data that a user gets back from a server from different endpoints. An example of this would be a list of users in a database.
+
 - [ ] What can the API return to help clients know if a request was successful?
+
+Response: An API can return a status code letting the user know what the response from the server was. A successful status code would be 200.
 
 - [ ] How can we partition our application into sub-applications?
 
+Response: To partition a backend application, you can break the server up into the routes that do basically one thing.
+
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [ x ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [ x ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
